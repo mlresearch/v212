@@ -1,0 +1,103 @@
+---
+booktitle: Proceedings of The Cell Segmentation Challenge in Multi-modality High-Resolution
+  Microscopy Images
+shortname: NeurIPS-CellSeg
+volume: '212'
+year: '2023'
+start: 2022-11-28
+end: 2022-12-09
+published: 2023-06-04
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: NeurIPSCellSeg-2022
+month: 0
+cycles: false
+bibtex_editor: Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida,
+  Jos\'e and Bader, Gary D. and Wang, Bo
+editor:
+- given: Jun
+  family: Ma
+- given: Ronald
+  family: Xie
+- given: Anubha
+  family: Gupta
+- given: José
+  family: Almeida
+  prefix: Guilherme de
+- given: Gary D.
+  family: Bader
+- given: Bo
+  family: Wang
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The Cell Segmentation Challenge in Multi-modality High-Resolution Microscopy Images
+    Held in Convention Center, New Orleans, America on 28 November to 09 December 2022
+
+  Published as Volume 212 by the Proceedings of Machine Learning Research on 04 June 2023.
+
+  Volume Edited by:
+    Jun Ma
+    Ronald Xie
+    Anubha Gupta
+    José Guilherme de Almeida
+    Gary D. Bader
+    Bo Wang
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 28 Nov--09 Dec
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v212"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v212
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v212
+email: ''
+conference:
+  name: Competitions in Neural Information Processing Systems
+  url: https://neurips22-cellseg.grand-challenge.org/
+  location: Convention Center, New Orleans, America
+  dates:
+  - 2022-11-28
+  - 2022-11-29
+  - 2022-11-30
+  - 2022-12-01
+  - 2022-12-02
+  - 2022-12-03
+  - 2022-12-04
+  - 2022-12-05
+  - 2022-12-06
+  - 2022-12-07
+  - 2022-12-08
+  - 2022-12-09
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v212/neuripscellseg22.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v212/neuripscellseg22.bib

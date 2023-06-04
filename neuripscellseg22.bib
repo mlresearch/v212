@@ -1,0 +1,270 @@
+@Proceedings{NeurIPSCellSeg-2022,
+    booktitle = {Proceedings of The Cell Segmentation Challenge in Multi-modality High-Resolution Microscopy Images},
+    name = {Competitions in Neural Information Processing Systems},
+    shortname = {NeurIPS-CellSeg},
+    editor = {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+    volume = {212},
+    year = {2023},
+    start = {2022-11-28},
+    end = {2022-12-09},
+    published = {2023-06-04},
+    address = {Convention Center, New Orleans, America},
+    conference_url = {https://neurips22-cellseg.grand-challenge.org/},
+}
+
+
+@InProceedings{bai22,
+  title =    {YUSEG: Yolo and Unet is all you need for cell instance segmentation},
+  author =       {Bai,Bizhe and Tian,Jie and Luo,Sicong and Wang,Tao and Lyu,Sisuo },
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--15},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/bai22/bai22.pdf},
+  url =    {https://proceedings.mlr.press/212/bai22.html},
+  abstract =   {Cell instance segmentation, which identifies each specific cell area within a mi- croscope image, is helpful for cell analysis. Because of the high computational cost brought on by the large number of objects in the scene, mainstream instance segmentation techniques require much time and computational resources. In this paper, we proposed a two-stage method in which the first stage detects the bounding boxes of cells, and the second stage is segmentation in the detected bounding boxes. This method reduces inference time by more than 30\% on images that image size is larger than 1024 pixels by 1024 pixels compared to the mainstream instance segmentation method while maintaining reasonable accuracy without using any external data.}
+}
+
+@InProceedings{cai22,
+  title =    {VSM: A Versatile Semi-supervised Model for Multi-modal Cell Instance Segmentation},
+  author =       { Cai, Xiaochen and Cai, Hengxing and Xu, Kele and Tu, Wei-Wei and Li, Wu-Jun},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--13},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/cai22/cai22.pdf},
+  url =    {https://proceedings.mlr.press/212/cai22.html},
+  abstract =   {Cell instance segmentation is a fundamental task in analyzing microscopy images, with applications in computer-aided biomedical research. In recent years, deep learning techniques have been widely used in this field. However, existing methods exhibit inadequate generalization ability towards multi-modal cellular images and require a considerable amount of manually labeled data for training. To overcome these limitations, we present VSM, a versatile semi-supervised model for multi-modal cell instance segmentation. Our method delivers high accuracy and efficiency, as verified through comprehensive experiments. Additionally, VSM achieved a top-five ranking in the Weakly Supervised Cell Segmentation category of the multi-modal High-Resolution Microscopy competition.}
+}
+
+
+@InProceedings{hu22,
+  title =    {Cell Segmenter: A General Framework for Multi-modality Cell Segmentation },
+  author =       {Hu, Kaiwen and Zhang, Shengxuming and Jia, Zhijie and Cheng, Lechao and Feng Zunlei},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1-12},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/hu22/hu22.pdf},
+  url =    {https://proceedings.mlr.press/212/hu22.html},
+  abstract =   {Cell Segmentation is an initial and fundamental step in biomedical image analysis, which strongly affects the experimental results of this analysis. Recently, deep learning based segmentation methods have shown great power in segmentation accuracy and efficiency. However, these data-driven methods still face many challenges, such as lack of annotations, multi-modality, and complex morphology, where morphological complexity significantly limits model performance. In this paper, we propose a new all-purpose framework with high morphological adaptability for multi-modality cell segmentation, termed Cell Segmenter (CS). For high convex cells with an arbitrary size, the Anchor-based Watershed Framework (AWF) precisely locates well-defined cell centers and generates segmentation based on these markers. For those elongated or non-convex cells, the center-independent segmentation method Omnipose is adopted to obtain satisfying masks. In the inference time, confidence-based quality estimation is conducted on the branch predictions if needed, and then the better result is chosen as the final segmentation. The F1-score of the proposed method reaches 0.8537 on TuningSet and 0.6216 on the final test set of the NeurIPS 2022 Cell Segmentation Challenge.}
+}
+
+
+@InProceedings{joubbi22,
+  title =    {CrossCT: CNN and Transformer cross–teaching for multimodal image cell segmentation},
+  author =       {Joubbi, Sara and Ciano, Giorgio and Cardamone, Dario and Maccari, Giuseppe and Medini, Duccio},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Multi-modality Microscopy Images},
+  pages =    {1--14},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/joubbi22/joubbi22.pdf},
+  url =    {https://proceedings.mlr.press/212/joubbi22.html},
+  abstract =   {Segmenting microscopy images is a crucial step for quantitatively analyzing biological imaging data. Classical tools for biological image segmentation need to be adjusted to the cell type and image conditions to get decent results. Another limitation is the lack of high-quality labeled data to train alternative methods like Deep Learning since manual labeling is costly and time-consuming. <em> Weakly Supervised Cell Segmentation in Multi-modality High-Resolution Microscopy Images </em> was organized by NeurIPS to solve this problem. The aim of the challenge was to develop a versatile method that can work with high variability, with few labeled images, a lot of unlabeled images, and with no human interaction. We developed CrossCT, a framework based on the cross--teaching between a CNN and a Transformer. The main idea behind this work was to improve the organizers' baseline methods and use both labeled and unlabeled data. Experiments show that our method outperforms the baseline methods based on a supervised learning approach. We achieved an F1 score of 0.5988 for the Transformer and 0.5626 for the CNN respecting the time limits imposed for inference.}
+}
+
+
+@InProceedings{lee22a,
+  title =    {MEDIAR: Harmony of Data-Centric and Model-Centric for Multi-Modality Microscopy},
+  author =       {Lee, Gihun and Kim, SangMook and Kim, Joonkee and Yun, Se-Young.},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--16},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/lee22a/lee22a.pdf},
+  url =    {https://proceedings.mlr.press/212/lee22a.html},
+  abstract =   {Cell segmentation is a fundamental task for computational biology analysis. Identifying the cell instances is often the first step in various downstream biomedical studies. However, many cell segmentation algorithms, including the recently emerging deep learning-based methods, still show limited generality under the multimodality environment. Weakly Supervised Cell Segmentation in Multi-modality High-Resolution Microscopy Images was hosted at NeurIPS 2022 to tackle this problem. We propose MEDIAR, a holistic pipeline for cell instance segmentation under multi-modality in this challenge. MEDIAR harmonizes data-centric and model-centric approaches as the learning and inference strategies, achieving a 0.9067 F1-score at the validation phase while satisfying the time budget. To facilitate subsequent research, we provide the source code and trained model as open-source.}
+}
+
+
+@InProceedings{lee22b,
+  title = {Cell Segmentation in Multi-modality High-Resolution Microscopy Images with Cellpose},
+  author = {Lee, Kwanyoung and Byun, Hyungjo and Shim, Hyunjung},
+  booktitle = {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =  {1--11},
+  year =  {2022},
+  editor =  {Jun, Ma and Ronald, Xie and Anubha, Gupta and Jose Guilherme de, Almeida and Gary D, Bader and Bo, Wang},
+  volume =  {212},
+  series =  {Proceedings of Machine Learning Research},
+  month =  {03 Dec},
+  publisher =  {PMLR},
+  pdf =  {https://proceedings.mlr.press/212/lee22b/lee22b.pdf},
+  url =  {https://proceedings.mlr.press/212/lee22b.html},
+  abstract =  {Deep learning has achieved significant improvement in cell segmentation of microscopy images in the field of Biology. However, a lack of generalization has been a major bottleneck of segmentation models since the performance is largely degraded with out-of-distribution data or unseen class data. Developing a generalized segmentation model is challenging due to the diversity of modalities, different staining methods, complicated cell shapes, and extremely high image resolution in microscopy images. The dataset for the ‘’Weakly Supervised Cell Segmentation in Multi-modality High-Resolution Microscopy Images'' challenge consists of images with these diverse characteristics. To address these challenges, we trained the Cellpose model to competently perform instance segmentation on datasets with various characteristics. For that, we 1) specified the model to only use green and blue channels for all types of cell images, and 2) investigated the effect and performance of the existing diameter estimation model to determine the areas where it performs best, using images of various resolutions. As a result, we achieved an F1 score of 0.7607 for the validation (Tuning) set.}
+}
+
+
+@InProceedings{li22,
+  title =    {MAUNet: Modality-Aware Anti-Ambiguity U-Net for Multi-Modality Cell Segmentation },
+  author =       { Wangkai, Li and Zhaoyang, Li and Rui, Sun and Huayu, Mai and Naisong,  Luo and Wang, Yuan and Yuwen, Pan and Guoxin, Xiong and Huakai, Lai and Zhiwei, Xiong and Tianzhu, Zhang},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--12},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/li22/li22.pdf},
+  url =    {https://proceedings.mlr.press/212/li22.html},
+  abstract =   {Automatic cell segmentation enjoys great popularity with the development of deep learning. However, existing methods tend to focus on the binary segmentation between foreground and background in a single domain, but fail to generalize to multi-modality cell images and to exploit numerous valuable unlabeled data. To mitigate these limitations, we propose a Modality-aware Anti-ambiguity UNet (MAUNet) in a unified deep model via an encoder-decoder structure for robust cell segmentation. The proposed MAUNet model enjoys several merits. First, the proposed instance-aware decode endows pixel features with better cell boundary discrimination capabilities benefiting from cell-wise distance field. And the ambiguity-aware decode aims at alleviating the domain gap caused by multimodality cell images credited to a customized anti-ambiguity proxy for domaininvariant learning. Second, we prepend the consistency regularization to enable exploration of unlabeled images, and a novel post-processing strategy to incorporate morphology prior to cell instance segmentation. Experimental results on the official validation set demonstrate the effectiveness of our method. }
+}
+
+
+@InProceedings{lou22,
+  title = {Multi-stream Cell Segmentation with Low-level Cues for Multi-modality Images},
+  author = {Lou, Wei and Yu, Xinyi and Liu, Chenyu and Wan, Xiang and Li, Guanbin and Liu, Siqi and Li, Haofeng},
+  booktitle = {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages = {1--10},
+  year = {2022},
+  editor = {Jun, Ma and Ronald, Xie and Anubha, Gupta and Jose Guilherme de, Almeida and Gary D, Bader and Bo, Wang},
+  volume = {212},
+  series = {Proceedings of Machine Learning Research},
+  month = {03 Dec},
+  publisher = {PMLR},
+  pdf = {https://proceedings.mlr.press/212/lou22/lou22.pdf},
+  url = {https://proceedings.mlr.press/212/lou22.html},
+  abstract = {Cell segmentation for multi-modal microscopy images remains a challenge due to the complex textures, patterns, and cell shapes in these images. To tackle the problem, we first develop an automatic cell classification pipeline to label the microscopy images based on their low-level image characteristics, and then train a classification model based on the category labels. Afterward, we train a separate segmentation model for each category using the images in the corresponding category. Besides, we further deploy two types of segmentation models to segment cells with roundish and irregular shapes respectively. Moreover, an efficient and powerful backbone model is utilized to enhance the efficiency of our segmentation model. Evaluated on the Tuning Set of NeurIPS 2022 Cell Segmentation Challenge, our method achieves an F1-score of 0.8795 and the running time for all cases is within the time tolerance.}
+}
+
+
+@InProceedings{lu22,
+  title =    {Re-Unet:Multi-Modality Cell Segmentation based on nnU-Net Pipeline},
+  author =       {Lu, Haotian and Feng,  Jinghao and Peng, Zelin and Shen, Wei},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--9},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/lu22/lu22.pdf},
+  url =    {https://proceedings.mlr.press/212/lu22.html},
+  abstract =   {Cell segmentation is an important initial task in medical image analysis, and in recent years, data-driven deep learning methods have made groundbreaking achievements in this field. In this challenge, a multi-modal and partially labeled dataset is provided. In this paper, we propose a multi-modality cell segmentation framework called Re-Unet, which is based on the nnU-Net pipeline and an iterative self-training method. Re-Unet enriches the original data and fully considers the information of cell intervals while making full use of the semi-supervised data. Our proposed method achieves a mean F1 score of 0.6101 on the tuning set and a F1 score of 0.4492 on the testing set.}
+}
+
+
+@InProceedings{nguyen22,
+  title =    {Sliding Window and Pseudo-labeling techniques for Cellular Segmentation},
+  author =  { Nguyen Hai, Minh and Le Huy, Duong and Nguyen The, Nam and Bui Nhat, Truong and Dam Trong, Tuyen and Le Thi, Hanh and Nguyen Kha Ngoc, Anh and Le Trung, Kien and Nguyen Cong Hoang, Anh and Nguyen Ngoc, Anh and Nguyen Hai, Duong},
+  booktitle =  {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1-10},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/nguyen22/nguyen22.pdf},
+  url =    {https://proceedings.mlr.press/212/nguyen22.html},
+  abstract =   {Cell segmentation is a fundamental task in biomedical image analysis, which involves the identification and separation of individual cells from microscopy images. Large-size images and unannotated data are two canailing problems degrading the performance in cell segmentation. Regarding these issues, we propose sliding window and pseudo-labeling techniques by conducting several experiments on different neural architectures. Following this approach, our method achieves a significant performance improvement and a final result of 0.8097 F1 score on the tuning set and 0.6379 F1 score on the test set of Weakly Supervised Cell Segmentation in Multi-modality Microscopy challenge hosted at NeurIPS 2022.}
+}
+
+
+
+@InProceedings{upschulte22,
+  title =    {Uncertainty-Aware Contour Proposal Networks for Cell Segmentation in Multi-Modality High-Resolution Microscopy Images},
+  author =       {Upschulte, Eric and Harmeling, Stefan and Amunts, Katrin and Dickscheid, Timo},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1-12},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/upschulte22/upschulte22.pdf},
+  url =    {https://proceedings.mlr.press/212/upschulte22.html},
+  abstract =   {We present a simple framework for cell segmentation, based on uncertainty-aware Contour Proposal Networks (CPNs). It is designed to provide high segmentation accuracy while remaining computationally efficient, which makes it an ideal solution for high throughput microscopy applications. Each predicted cell is provided with four uncertainty estimations that give information about the localization accuracy of the detected cell boundaries. Such additional insights are valuable for downstream single-cell analysis in microscopy image-based biology and biomedical research. In the context of the NeurIPS 22 Cell Segmentation Challenge, the proposed solution is shown to generalize well in a multi-modality setting, while respecting domain-specific requirements such as focusing on specific cell types. Without an ensemble or test-time augmentation the method achieves an F1 score of 0.8986 on the challenge's validation set.}
+}
+
+
+@InProceedings{wang22,
+  title =    {Semi-Supervised Cell Instance Segmentation for Multi-Modality Microscope Images},
+  author =       {Wang, Ziyue and Fang, Zijie and Chen, Yang and Yang, Zexi  and Liu, Xinhao and Zhang, Yongbing},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--11},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/paperidentifier/wang22.pdf},
+  url =    {https://proceedings.mlr.press/212/wang22.html},
+  abstract =   {Many clinical and biological tasks depend on accurate cell instance segmentation. Currently, the rapid development of deep learning realizes the automation of cell segmentation, which significantly decreases the workload of clinicians and researchers. However, most existing cell segmentation frameworks are fully supervised and modality-specific. Towards this end, this paper proposes a semi-supervised cell instance segmentation framework for multi-modality microscope images. Firstly, $K$-Means clustering is utilized to discriminate the image modality. Then, for phase contrast and differential interference contrast images, Cellpose is adopted. For brightfield images, we subdivide them into two sub-categories according to the cell diameter by $K$-Means and optimize a U-Net for the large diameter group. For fluorescence images, we propose a semi-supervised learning strategy using CDNet. The leaderboard shows that our proposed framework reaches an F1 score of 0.8428 on the tuning set, which ranks 6th among all teams.}
+}
+
+
+@InProceedings{yang22,
+  title={Multi-modal Cell Segmentation based on U-Net++ and Attention Gate},
+  author={Yang, Xinye and Chen, Hao},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--10},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/yang22/yang22.pdf},
+  url =    {https://proceedings.mlr.press/212/yang22.html},
+  abstract =   {Cell segmentation is one of the most fundamental tasks in the areas of medical image analysis, which assists in cell recognition and number counting. The seg- mentation results obtained will be poor due to the diverse cell morphology and the frequent presence of impurities in the cell pictures. In order to solve the cell segmentation which are from a competition held by Neural Information Processing Systems(NIPS), we present a network that combines attention gates with U-Net++ to segment varied sizes of cells. Using the feature filtering of the attention gate can adjust the convolution block’s output, so as to improve the segmentation effect. The F1 score of our method reached 0.5874, Rank Running Time get 2.5431 seconds.}
+}
+
+
+@InProceedings{xue22,
+  title =    {Weakly Supervised Cell Instance Segmentation for Multi-Modality Microscopy},
+  author =       {Xue, Ming},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--8},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/xue22/xue22.pdf},
+  url =    {https://proceedings.mlr.press/212/xue22.html},
+  abstract =   {Instance segmentation of multi-modality high-resolution microscopy images is an important task in computational pathology. We extended HoVer-Net[1], originally developed for segmentation and classification of nuclei in multi-Tissue histology images, to apply it under weakly supervised situation. According to the final tests, this modification also works for multi-modality microscopy.}
+}
+
+
+@InProceedings{zhang22,
+  title =    {MT2: Multi-task Mean Teacher for Semi-Supervised Cell Segmentation},
+  author =       {Zhang, Binyu and Dong, Junhao and Zhao, Zhicheng and Meng, Zhu and Su, Fei},
+  booktitle =    {Proceedings of the NeurIPS Challenge on Cell Segmentation in Muliti-modality Microscopy Images},
+  pages =    {1--13},
+  year =   {2022},
+  editor =    {Ma, Jun and Xie, Ronald and Gupta, Anubha and Guilherme de Almeida, Jos\'e and Bader, Gary D. and Wang, Bo},
+  volume =   {212},
+  series =  {Proceedings of Machine Learning Research},
+  month =    {03 Dec},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/212/zhang22/zhang22.pdf},
+  url =    {https://proceedings.mlr.press/212/zhang22.html},
+  abstract =   {Cell segmentation is significant for downstream single-cell analysis in biological and biomedical research. Recently, image segmentation methods based on supervised learning have achieved promising results. However, most of them rely on intensive manual annotations, which are extremely time-consuming and expensive for cell segmentation. In addition, existing methods are often trained for a specific modality with poor generalization ability. In this paper, a novel semi-supervised cell segmentation method is proposed to segment microscopy images from multiple modalities. Specifically, Mean Teacher model is introduced to a multi-task learning framework, named Multi-task Mean Teacher (MT$^{2}$), in which both the classification and the regression heads are utilized to improve the prediction performance. Moreover, new data augmentation and multi-scale inference strategies are presented to enhance the robustness and generalization ability. For the quantitative evaluation on the Tuning Set of NeurIPS 2022 Cell Segmentation Competition, our method achieves the F1 Score of 0.8690, which demonstrates the effectiveness of the proposed semi-supervised learning method. Code is available at \url{https://github.com/djh-dzxw/MT2}}
+}
+
+
